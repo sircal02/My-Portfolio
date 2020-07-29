@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(80, 94, 141);
+  background-color: yellowgreen;
   font-family: "Poppins", sans-serif;
 }
 .logo {
@@ -78,7 +78,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: rgb(80, 94, 141);       
+    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,4 +134,7 @@ nav {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+body{
+  background-color: tomato;
 }
