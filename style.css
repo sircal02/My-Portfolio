@@ -136,5 +136,6 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 body{
-  background-color: tomato;
+  background-image: linear-gradient(90deg, gold,silver, white);
+    color: whitesmoke;
 }
