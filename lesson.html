@@ -22,7 +22,7 @@
         text-align: center;
       }
       .Date {
-        background-color:yellowgreen;
+        background-color: yellowgreen;
         width: 100%;
         border-radius: 5px;
         padding: 15px;
@@ -34,16 +34,16 @@
         cursor: pointer;
       }
 
-      .Date:hover{
-          background-color: gold;
-      } 
-
-      .Date:after{
-          content: "\1F447";
-          padding-left: 100%;
+      .Date:hover {
+        background-color: gold;
       }
-      .active:after{
-          content:"\1F446" ;
+
+      .Date:after {
+        content: "\1F447";
+        padding-left: 100%;
+      }
+      .active:after {
+        content: "\1F446";
       }
 
       .Notes {
@@ -54,17 +54,20 @@
         overflow: hidden;
         transition: max-height 0.2s ease-out;
       }
+
+      .Notes p {
+        background-color: darkgreen;
+      }
       @media screen and (max-width: 768px) {
         .All {
           margin-left: 10px;
           margin-right: 10px;
         }
       }
-     
     </style>
   </head>
   <body>
-       <nav>
+    <nav>
       <div class="logo">
         <img class="image" src="./images/logo.png" alt="" />
         <h4>CITY</h4>
@@ -144,7 +147,7 @@
         </p>
       </div>
 
- <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -158,8 +161,7 @@
         </p>
       </div>
 
-
-       <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -173,8 +175,7 @@
         </p>
       </div>
 
-
-       <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -188,7 +189,7 @@
         </p>
       </div>
 
-       <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -202,7 +203,7 @@
         </p>
       </div>
 
-       <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -216,7 +217,7 @@
         </p>
       </div>
 
-       <button class="Date">
+      <button class="Date">
         Day 2
         <br />
         Tuesday 21st July, 2020
@@ -229,10 +230,6 @@
           explicabo.
         </p>
       </div>
-
-
-
-
     </div>
 
     <script>
