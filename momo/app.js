@@ -71,19 +71,21 @@ function updateValues() {
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
 
   const income = amounts
-    .filter((item) => 0)
-    .reduce((item) => (acc += item), 0)
+    .filter((item) => item > 0)
+    .reduce((acc, item) => (acc += item), 0)
     .toFixed(2);
 
   const expense = (
-    amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
+    amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0)
+    *
     -1
   ).toFixed(2);
 
   // updating the content of the html
-  balance.innerHTML = `$${total}`;
-  money_plus.innerHTML = `$${income}`;
-  money_minus.innerHTML = `$${expense}`;
+  //changed from innerhtml to innertext
+  balance.innerText = `$${total}`;
+  money_plus.innerText = `$${income}`;
+  money_minus.innerText = `$${expense}`;
 }
 
 // code to remove a transaction
