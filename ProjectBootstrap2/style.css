@@ -1,1 +1,178 @@
-<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.navbar-brand {
+    font-family: "Suwannaphum" cursive;
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.active .nav-link {
+    color: blue !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.site-content{
+    background-image: url(./images/A\ \(3\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, 
+.site-desc {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-title {
+margin-top: 30%;
+margin-bottom: 6;
+font-style: 50px;
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1{
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+}
+
+.site-btn2{
+    background-color: white;
+}
+
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.section-1 .heading-1 {
+    margin-top: 8%;
+}
+
+.section-1 .heading-2 {
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1 {
+    color: rgb(19, 20, 20);
+}
+
+.section-1{
+    margin-bottom: 8%;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card img {
+    width: 318px;
+    height: 318px; 
+}
+
+.section-2 .container-fluid{
+    background-image: url(./images/A\ \(4\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-family: monospace;
+    width: 80%;
+    color: white;
+}
+
+.section-2 .para{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+.section-3{
+    margin-top: 6%;
+}
+
+.section-3 i{
+    color: teal;
+}
+
+.section-3 p{ 
+color: grey;
+}
+
+.section-4{
+    margin-top: 8%;
+}
+
+.section-4 .row .col-md-7,
+.col-md-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-4 a{
+    color: tomato;
+    font-size: 40px;
+    text-emphasis: none;
+}
+
+.section-4 .para-1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7%;
+    font-size: 20px;
+}
+
+.social i {
+    color: tomato;
+    font-size: 30px;
+}
